@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "712618260199",
+    "project_id": "anonca-229f2",
+    "storage_bucket": "anonca-229f2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712618260199:android:2a743b85436e6875a45442",
+        "android_client_info": {
+          "package_name": "com.LUI.anonca"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDs1OgExudJBMm3b9_Cc-IVReXudJ8tmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
