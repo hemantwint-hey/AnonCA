@@ -6,7 +6,7 @@ import 'package:flash_chat/screens/chat_screen.dart';
 import 'package:firebase_core/firebase_core.dart'; // <<< ADDED
 
 // The main function must be asynchronous to c/all Firebase.initializeApp()
-void main() async { // <<< MODIFIE
+void main() async { // <<< MODIFIED
   // Ensure that the widgets binding is initialized, which is necessary before async calls
   WidgetsFlutterBinding.ensureInitialized(); // <<< ADDED
 
