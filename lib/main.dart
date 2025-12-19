@@ -10,7 +10,7 @@ void main() async { // <<< MODIFIED
   // Ensure that the widgets binding is initialized, which is necessary before async calls
   WidgetsFlutterBinding.ensureInitialized(); // <<< ADDED
 
-  // Initialize Firebase core
+  // Initialize Firebas e core
   await Firebase.initializeApp(); // <<< ADDED
 
   runApp(FlashChat());
