@@ -143,7 +143,7 @@ class MessagesStream extends StatelessWidget {
     return StreamBuilder<QuerySnapshot>(
       stream: _firestore
           .collection('messages')
-          .orderBy('timestamp', descending: true) // ✅ newest first
+          .orderBy('timestamp', descending: true) // newest first
           .snapshots(),
       builder: (context, snapshot) {
         if (!snapshot.hasData) {
@@ -183,6 +183,9 @@ class MessagesStream extends StatelessWidget {
     );
   }
 }
+
+
+
 
 //----------------------------------------------------------------------
 // WIDGET FOR INDIVIDUAL MESSAGE BUBBLE
